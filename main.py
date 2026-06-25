@@ -19,12 +19,12 @@ def main():
     if args.login:
         getMonth.logIn()
         print(
-            f"You clocked in:{getMonth.get_date}, {getMonth.get_time}")
+            f"You clocked in:{getMonth.get_date()}, {getMonth.get_time()}")
 
     if args.logout:
         getMonth.logOut()
         print(
-            f"You clocked out:{getMonth.get_date}, {getMonth.get_time}")
+            f"You clocked out:{getMonth.get_date()}, {getMonth.get_time()}")
 
 
 if __name__ == "__main__":
